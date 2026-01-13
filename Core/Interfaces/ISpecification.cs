@@ -22,6 +22,10 @@ namespace Core.Interfaces
         Expression<Func<T, object>>? OrderBy { get; } // this is the property 
         Expression<Func<T, object>>? OrderByDesc { get; } // this is the property 
         bool IsDistinct {  get; }
+        int Take {  get; }
+        int Skip {  get; }
+        bool IsPagingEnabled {  get; }
+        IQueryable<T>ApplyCriteria(IQueryable<T> query);
 
     }
     public interface ISpecification<T, TResult> : ISpecification<T>
