@@ -367,3 +367,4 @@ FodyWeavers.xsd
 /client/.editorconfig
 /client/.postcssrc.json
 /client/.gitignore
+/client/ssl
