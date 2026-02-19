@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/client/.vscode/extensions.json
+/client/.vscode/extensions.json
+/client/.vscode
+/client/.editorconfig
+/client/.postcssrc.json
+/client/.gitignore
